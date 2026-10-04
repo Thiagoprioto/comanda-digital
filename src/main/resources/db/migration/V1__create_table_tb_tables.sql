@@ -1,0 +1,5 @@
+CREATE TABLE tb_tables (
+    id BIGSERIAL PRIMARY KEY,
+    number INT NOT NULL UNIQUE,
+    status VARCHAR(20) NOT NULL
+);
